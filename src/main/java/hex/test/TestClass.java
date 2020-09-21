@@ -1,4 +1,4 @@
-package io.kovalevskyi.collections.test;
+package hex.test;
 
 import org.openjdk.jmh.annotations.Benchmark;
 
@@ -8,7 +8,7 @@ public class TestClass {
 
     @Benchmark
     public void test1() {
-        add(new ArrayList<Integer>());
+        add(new ArrayListHex<Integer>());
     }
 
     @Benchmark
